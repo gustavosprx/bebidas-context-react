@@ -41,6 +41,7 @@ const Formulario = () => {
                         type="text"
                         placeholder="Buscar por Ingrediente"
                         onChange={obtenerDatosReceta}
+                        autoComplete="off"
                     />
                 </div>
                 <div className="col-md-4">
